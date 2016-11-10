@@ -1,0 +1,29 @@
+
+/* this says all elements background color is green */
+*{ background-color: green}
+
+/* this says all paragraph elements in the body
+  should be green */
+body > div {  background-color: red; }
+
+#directions{
+	background-color: purple;
+}
+
+#calculations{
+	list-style: none;
+}
+/* this says all paragraphs should have a black background color */
+
+/*p#blue{
+	background-color: blue;
+}
+*/
+p { background-color: black;}
+
+/* what color do you predict the background of the paragraph will be */
+
+/* helpful hint, always use ids to increase
+specificity */
+
+/* If two selectors apply to the same element, the one with higher specificity wins. */
