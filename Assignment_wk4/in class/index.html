@@ -1,0 +1,26 @@
+<style>
+	#myList{
+	}
+</style>
+<body>
+	<a id="myLink" href="#">Click Me</a>
+
+	<ul id="myList">
+		<li id="first">First</li>
+		<li id="second">Second</li>
+	</ul>
+</body>
+<script>
+document.getElementById('myLink').onclick = switcher;
+
+function switcher(){
+	//fun with comments
+	var firstValue = document.getElementById('first').innerText;
+	var secondValue = document.getElementById('second').innerText;
+	// if(firstValue)
+	alert(firstValue);
+	document.getElementById('first').innerText = secondValue;
+	document.getElementById('second').innerText = firstValue;
+
+}		
+</script>
