@@ -52,6 +52,17 @@ body {
      font-family: 'Open Sans', sans-serif;
 }
 
+.posts{
+  float: left;
+  width: 700px;
+}
+.rightcolumn {
+  background-color: blue;
+  float: right;
+  width: 200px;
+  height: 400px;
+}
+
 header h1 {
   color: #fff;
   float: left;
@@ -86,7 +97,7 @@ header {
 /*******************************************/
 
 /* Center the container */
-#container {
+.container {
   width: 960px;
   margin: auto;
 }
@@ -96,7 +107,7 @@ header {
 }
 
 footer {
-
+  clear: both;
 }
 
 /******************************************
