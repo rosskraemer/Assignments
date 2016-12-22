@@ -1,0 +1,87 @@
+Jquery Review and Functions
+FEWD
+  Review
+We started with our html and css
+html added structure
+css added style and layout
+javascript lets us add fun things to our page or site
+
+Loading of html page
+browsers aren’t smart
+draw out the 3 pages(html, css, js), show how they are loaded
+they load the html page, which loads the css, and then it loads javascript
+javascript program is run line by line
+Important - javascript is loaded and run at the same time(see functions review)
+When the browser loaded the page the JS was executed at the same time.
+
+Selectors Review
+we used selectors to select html elements
+Syntax for selecting items?  (see functions review, select randomText)
+jquery and selector.  selector was the same format we used for css
+so, if we want to set the randomText elements color to blue, what did we do in css?
+what do we do in javascript
+show that it is executing at the same time as loading
+just for fun.  fadeIn
+
+
+Conditionals Review
+when running a program we want to control what code gets executed
+so we need to make decisions about it
+we do tests using our symbols (===, !===, >, <)
+Code inside braces is isolated from the rest of the code
+let’s do a test for 1 number bigger than the other in functions file.
+let add a branch to the conditional
+we take and make a fork in the road of execution here
+Let’s do blackout exercise from lesson 9 without interacting with the 
+
+Variables Review
+Remember that browsers aren’t smart
+so we need to store info for later usage
+metaphor - political note scandal
+Let’s open scorekeeper and dissect the solution code
+Since the program is loaded and run at the same time, we had to figure out a place to hold on to score
+We used that score later on when we added to it.
+We can store different things inside of our variables
+numbers, strings, booleans
+
+Let’s do blackout exercise from lesson 9 using a variable to store if the lights are on or off
+
+Basic Functions
+because the javascript is loaded when the browser loads things.   To add more interactivity or to react to things that happen.  we want to store that interactivity
+just like a variable is set aside for later use
+metaphor - political note scandal…run exposeScandal
+a function is also set aside for later use
+because it’s set aside for later use, it must be called
+syntax for function
+inside the braces that code is stored for later and not run on browser load
+NOTE - we used function name(){}
+the parens denote that we can send something in here
+In groups of two complete the functions review code.
+Talk through step by step what is happening when you create a function
+Also talk through how the entire javascript is loaded and what you think is happening
+
+Return Values from a function(02_return_values)
+Since we set a function aside for later use we might want to make it more of a standalone thing
+We had previously used functions to change text or html elements on the page
+let’s take a look and walk through 02_return_values
+let’s start at the end result and work our way backwards
+What are the things we want to accomplish(pseudocode)
+
+Passing values into a function(03_passing_variables)
+parens after the name allow for things to be put in there
+(numberOne, numberTwo)
+ numberOne and numberTwo is the name used inside the function
+walkthrough passing values to function
+step by step.   handoff of the football from outside the function to inside the function with the name
+
+
+Anonymous function
+when we do things like react to events like click events, the function that gets called is called a callback function
+what it means is after executing the method click, run the function given to it
+we can shorten this with an anonymous function
+where else have we seen this
+document ready —> break down document ready
+
+
+exercise is assignment or cash register depending on time
+
