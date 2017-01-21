@@ -27,6 +27,11 @@ Developer @GA in NYC
      height: 0;
 }
 
+
+.clearfix {
+  overflow: auto;
+}
+
 .clear {
   clear: both;
 }
@@ -45,6 +50,10 @@ Developer @GA in NYC
 /* BASE STYLES
 /*******************************************/
 
+a {
+  text-decoration: none;
+}
+
 body {
      color: #000;
      font-size: 12px;
@@ -55,17 +64,47 @@ body {
 .posts{
   float: left;
   width: 700px;
+  border-bottom: 2px solid gray;
 }
 .rightcolumn {
-  background-color: blue;
   float: right;
   width: 200px;
   height: 400px;
 }
 
+.rightcolumn h3 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.rightcolumn ul li a {
+  font-size: 24px;
+  font-weight: 300;
+  color: #043049;
+}
+
+.rightcolumn ul {
+  margin-bottom: 40px;
+}
+
+.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
+
 header h1 {
   color: #fff;
   float: left;
+}
+
+header h1:hover {
+  color: yellow;
 }
 
 nav {
@@ -86,9 +125,57 @@ nav ul li a{
   text-decoration: none;
 }
 
+nav ul li a:hover{
+  color: white;
+  }
+
 header {
   background-color: #033048;
-  height: 200px;
+  height: 70px;
+}
+
+.posts h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.article_body:first-letter{
+  font-size: 30px;
+}
+
+.footercopy {
+  text-align: center;
+  height: 500px;
+  color: white;
+}
+
+.readmore {
+  font-size: 16px;
+  color: #033048;
+  font-weight: 600;
+  text-decoration: none;
+
+}
+
+.readmore:hover {
+  color: red;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.sidebar_links{
+  color: #033048;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.ad {
+  border-color: 10px solid black;
+  height: 550px;
+  width: 240px;
 }
 
 
@@ -102,17 +189,56 @@ header {
   margin: auto;
 }
 
-header {
+.sign_up {
+  background-color: #f9e42e;
+  height: 120px;
+  text-align: center;
 
 }
+
+.button:hover {
+  color: white;
+}
+
 
 footer {
+  background: #121212;
+  text-align: center;
   clear: both;
 }
+footer .logo {
+  color: #f9e42e;
+  font-size: 30px;
+  margin-bottom: 68px;
+}
+footer ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 0 26px 75px;
+}
+footer p {
+  font-size: 18px;
+  color: #fff;
+  font-weight: 600;
+}
+
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.button {
+  color: rgba(255, 255, 255, 0.7);
+  padding: 10px 50px 10px 50px;
+  background-color: #043049;
+  border-radius: 3px;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 18px;
+
+
+
 
 
 
